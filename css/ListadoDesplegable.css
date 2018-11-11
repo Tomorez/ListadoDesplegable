@@ -1,0 +1,75 @@
+.bloque {
+
+			display: inline-block;
+		    padding: .5em;
+		    color: #5e5e5e;
+		    cursor: pointer;
+		}	
+		.caja{
+			border: 1px solid black;
+		}
+		.desplegable {
+			border-bottom: 0px solid #e7e1d3 !important;
+			border-top: 1px solid #e7e1d3 !important;
+			border-left: 1px solid #e7e1d3 !important;
+			border-right: 1px solid #e7e1d3 !important;
+			background: #f9f8f4;
+
+		}
+		.desplegable input{
+			width: 100%;
+			border: 1px solid #e7e1d3 !important;
+			border-top-right-radius: 15px;
+			border-top-left-radius: 15px;
+			padding: 0.5em;
+
+		}
+		.desplegable button{
+			width: 100%;
+			text-align: center;
+			border-bottom-right-radius: 15px;
+			border-bottom-left-radius: 15px;
+			padding: 0.25em;
+		}
+		.desplegable .accion,.desplegable .panel{
+			margin-top: -2px;
+
+			border: 2px solid #e7e1d3 !important;
+
+			background: #f9f8f4;
+		}
+		.desplegable .accion{
+			border-top: 0px solid black !important;
+			border-left: 0px solid black !important;
+			border-right:  0px solid black !important;
+
+		}
+		.desplegable .searcher{
+			border-bottom: 1px solid #e7e1d3 !important;
+			padding-bottom: 1em;
+			padding-top: 1em;
+		}
+		.desplegable .accion:hover{
+			cursor: pointer;
+		}		
+		.desplegable .panel{
+			padding-top: 1em;
+			padding-bottom: 1em;
+			border-left: 0px solid black !important;
+			border-right:  0px solid black !important;
+		}
+
+		.bloque.selected{
+			color: green;
+			font-weight: bold;
+		}
+		.bloque:hover{
+			margin-top: -2px;
+
+			border: 2px solid #d8d0bd !important;
+
+			background: #e0dbcb;
+
+			cursor: pointer;
+
+		}
